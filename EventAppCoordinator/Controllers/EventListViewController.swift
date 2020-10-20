@@ -10,6 +10,8 @@ import CoreData
 
 class EventListViewController: UIViewController, Storyboarded {
     
+    var viewModel: EventListViewModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNavigationBar()
@@ -20,14 +22,14 @@ class EventListViewController: UIViewController, Storyboarded {
         let plusBarButtonItem = UIBarButtonItem(image: plusImage,
                                                 style: .plain,
                                                 target: self,
-                                                action: #selector(tappedRightBarButton))
+                                                action: #selector(tappedAddEventButton))
         plusBarButtonItem.tintColor = .primaryAccent
         navigationItem.rightBarButtonItem = plusBarButtonItem
-        navigationItem.title = "Events"
+        navigationItem.title = viewModel.title
         navigationController?.navigationBar.prefersLargeTitles = true
     }
     
-    @objc private func tappedRightBarButton() {
-        print(#function)
+    @objc private func tappedAddEventButton() {
+        viewModel.tappedAddEvent()
     }
 }

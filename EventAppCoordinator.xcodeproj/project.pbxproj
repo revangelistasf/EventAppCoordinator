@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468D2F72253E454600251374 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D2F71253E454600251374 /* EventListViewModel.swift */; };
 		46E28202253BD4860048C4B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E28201253BD4860048C4B0 /* AppDelegate.swift */; };
 		46E28204253BD4860048C4B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E28203253BD4860048C4B0 /* SceneDelegate.swift */; };
 		46E28209253BD4860048C4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E28207253BD4860048C4B0 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		468D2F71253E454600251374 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
 		46E281FE253BD4860048C4B0 /* EventAppCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventAppCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E28201253BD4860048C4B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46E28203253BD4860048C4B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				46E28224253C91E80048C4B0 /* .swiftlint.yml */,
 				46E2822B253CB1130048C4B0 /* EventsAppCoordinator.xcdatamodeld */,
 				46E28230253CB1B70048C4B0 /* CoreDataManager.swift */,
+				468D2F71253E454600251374 /* EventListViewModel.swift */,
 			);
 			path = EventAppCoordinator;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				46E28222253C90630048C4B0 /* UIColor+Extensions.swift in Sources */,
 				46E28204253BD4860048C4B0 /* SceneDelegate.swift in Sources */,
 				46E28234253CB7F30048C4B0 /* Storyboarded+Extensions.swift in Sources */,
+				468D2F72253E454600251374 /* EventListViewModel.swift in Sources */,
 				46E28231253CB1B70048C4B0 /* CoreDataManager.swift in Sources */,
 				46E2821C253BE1BC0048C4B0 /* EventListCoordinator.swift in Sources */,
 			);
